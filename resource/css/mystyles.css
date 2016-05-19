@@ -1,0 +1,326 @@
+
+/* CSS for backgroud body */
+
+body{
+    
+    font-family: -apple-system, BlinkMacSystemFont, 
+      "Segoe UI", "Roboto", "Oxygen", 
+      "Ubuntu", "Cantarell", "Fira Sans", 
+      "Droid Sans", "Helvetica Neue", sans-serif;
+      
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0, #CCE8EB),
+        color-stop(0.36, #FFFFFF)
+        );
+    background-image: -o-linear-gradient(bottom, #CCE8EB 0%, #FFFFFF 36%);
+    background-image: -moz-linear-gradient(bottom, #CCE8EB 0%, #FFFFFF 36%);
+    background-image: -webkit-linear-gradient(bottom, #CCE8EB 0%, #FFFFFF 36%);
+    background-image: -ms-linear-gradient(bottom, #CCE8EB 0%, #FFFFFF 36%);
+    background-image: linear-gradient(to bottom, #CCE8EB 0%, #FFFFFF 36%);
+    background-repeat: no-repeat;
+}
+#beforeyoufly > #navbar1 > #menu > ul > #Menubefore > #test
+{
+    color: blue;
+    background-color: white;
+}
+
+/* CSS for align image center */
+.carousel-inner > .item > img {
+    margin: 0 auto;
+    display:table-cell; vertical-align:middle; text-align:center; width: 100%;max-height: 100%
+}
+
+/* CSS for caption of slide */
+.carousel-caption {
+    position: absolute;
+    color: white;
+    text-align: left;
+    padding-top: 5px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+
+.carousel-caption {
+    right: 1%;
+    left: 1%;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+/* CSS for nav tabs*/
+.nav-tabs > li > a{
+    padding: 3px 15px 3px 15px;
+    color: white;
+    background-color: #a29b8b;
+    border-radius: 0px 0px 0 0;
+    height: 25px;
+}
+
+.nav-tabs > li > a:hover {
+    border-color: transparent;
+
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: white;
+    cursor: default;
+    background-color: #d09b2b;
+    border: 1px solid #dddddd;
+    border-bottom-color: transparent;
+    border-radius: 0px 0px 0 0
+}
+
+/* CSS for nav bar */
+
+/* CSS for text color of navbar */
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+/* CSS for navbar on hover */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #0081c1;
+    background-color: #e9f7fc;
+}
+
+.navbar-default{
+    background-image: none;
+    background-color: #48addb;
+}
+
+.navbar-abc{
+    background-image: none;
+    background-color: #ffffff;
+}
+
+/* CSS for navbar on click */
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+    color: #0081c1;
+    background-color: #e9f7fc;
+}
+
+
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus
+{
+    background-image: none;
+    color: #0081c1;
+    background-color: #e9f7fc;
+}
+
+.dropdown-menu{
+    background-color: #e9f7fc;
+}
+
+/* CSS for background sub menu */
+.navbar-default .navbar-nav>.open>ul>li>a
+{
+    background-image: none;
+    color: #0081c1;
+    background-color: #e9f7fc;
+}
+
+/* CSS for text color sub menu */
+.navbar-default .navbar-nav>.open>ul>li>a:hover,
+.navbar-default .navbar-nav>.open>ul>li>a:focus {
+    background-image: none;
+    color: #0081c1;
+    background-color: white;
+
+}
+
+
+/* auto click dropdown hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+/* CSS for button */
+.mybutton
+{
+    font-weight: bold;
+    color: #156192;
+    background-color: #daeff7;
+    border: 1px solid;
+}
+
+/* CSS for image */
+.myimg
+{
+    display:table-cell; vertical-align:middle; text-align:center; width: 100%;max-height: 100%
+}
+
+/* CSS for register */
+#register
+{
+    height: 160px; 
+    padding: 8px; border: 1px solid #d09b2b;
+    
+}
+
+#FAQ
+{
+    padding: 0px; height: 100%; width: 100%; border: 1px solid #d09b2b;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        color-stop(0, #E1BF7F),
+        color-stop(1, #FFFFFF)
+        );
+}
+
+#social
+{
+    background-color: #dbd7ce;
+}
+
+#note
+{
+    background-image: -webkit-gradient(
+        linear,
+        right bottom,
+        left bottom,
+        color-stop(0, #E2C081),
+        color-stop(1, #FFFFFF)
+        );
+}
+
+.promotion
+{
+    border: 1px solid;
+    border-bottom-color: #d09b2b;
+    border-top-color: white;
+    border-right-color: transparent;
+    border-left-color: white;
+    color:  darkorange;
+}
+
+.opacity{
+    position: absolute;
+    width: 100%;
+    height: 210%;
+    background-color: black;
+    opacity: 0.8;
+    display: block;
+    top: 0%;
+    left: 0%;
+    z-index: 20;
+}
+
+.msg{
+  position: absolute;
+  left: 30%;
+  top: 15%;
+  display: block;
+  z-index: 21;
+}
+
+.btnCancel{
+    position: absolute;
+    cursor: pointer;
+    z-index: 22;
+    right: 27px;
+    top: 20px;
+}
+
+#popup{
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex__fix {
+    flex: 0 0 auto;
+}
+
+.flex__auto {
+    flex: 1 1 0px;
+}
+
+.flex--column {
+    flex-direction: column;
+}
+
+.flex--space-between {
+    justify-content: space-between;
+}
+
+.text--align-right {
+    text-align: right;
+}
+
+.margin--all {
+    margin: 10px;
+}
+
+.margin--all-s {
+    margin: 5px;
+}
+
+.margin--vertical {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.margin--vertical-s {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.margin--top-25 {
+    margin-top: 25px;
+}
+
+.margin-horizontal {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.padding--horizontal-s {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+input, input[type=date], input[type=time], input[type=datetime-local], input[type=month] {
+    line-height: 18px;
+}
+
+.list > :not(:last-child) {
+    margin-bottom: 10px;
+    padding: 0px 10px;
+}
+
+
+.list--margin-right > :not(:last-child) {
+    margin-right: 15px;
+}
+
+label {
+    font-weight: normal;
+}
+
+.booking-tabs {
+    padding: 10px 0px;
+    border: 3px solid #d09b2b;
+}
+
+@media (min-width: 992px) {
+    .booking-tabs,
+    #myCarousel {
+        height: 337px;
+    }
+}
